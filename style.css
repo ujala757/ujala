@@ -1,0 +1,101 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background:url(./pexels-johannes-plenio-2435951.jpg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+  
+    font-family: sans-serif;
+}
+.menubropdown{
+    background: chartreuse;
+    text-align: center;
+   
+}
+.navbar ul{
+    display: inline-flex;
+    list-style: none;
+    color: rgb(75, 252, 6);
+
+}
+.navbar ul li{
+    float: left;
+  width: 80px;
+  height: auto;
+  margin: 15px;
+  padding: 15px;
+}
+.navber ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.active,.menubropdown ul li:hover{
+    background:#1bc41b;
+    border-radius: 5px;
+}
+.sub-menu-1{
+    display: none;
+}
+.navbar ul li:hover .sub-menu-1{
+    display: block;
+    position:absolute;
+    background: transparent;
+    margin-top: 15px;
+    margin-left:- 15px;
+}
+.navbar ul li:hover .sub-menu-1 ul{
+    display: block;
+    margin: 5px;
+}
+.navbar ul li:hover .sub-menu-1 ul li{
+    width: 150px;
+
+    padding: 5px;
+    border-bottom: 1px dotted rgb(3, 180, 56);
+    background: transparent;
+    border-radius: 5px;
+    text-align: left;
+}
+.navbar ul li:hover.sub-menu-1 ul li :last-child{
+    border-bottom: none;
+}
+.navbar ul li:hover .sub-menu-1 ul li a:hover{
+    color: #b2ff00;
+}
+.border-left{
+    margin-left: 8rem;
+    padding-left: 20px;
+    border-left: 10px solid white;
+}
+.m{
+    margin-top: -auto;
+}
+h1{
+    font-size: 35px;
+    color: white;
+}
+.text-center{
+    font-size: large;
+    color: rgb(252, 0, 0);
+    text-align: left;
+}
+.j{
+    width: 18rem;
+    height:13 ;
+}
+.transparent{
+    background: transparent;
+}
+.card-body{
+    background: transparent;
+}
+.ans{
+    padding-left: 10px;
+}
